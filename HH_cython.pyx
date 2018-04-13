@@ -135,4 +135,4 @@ def hhModel(params, double[:] Iext, double dt, int[:] fI):
     except (OverflowError, ZeroDivisionError):
         v[-1] = float("NaN")
 
-    return np.asarray(v), np.asarray(t)
+    return np.asarray(v), np.asarray(t) 
