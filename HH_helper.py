@@ -80,5 +80,5 @@ def buildStimVec(nA, stim_start, stim_duration, dt):
     stimulus_vector[start:stop] = nA                             # array([ 0.,  0.,  1., ...,  1.,  0.,  0.])
     return stimulus_vector
 
-#print(dictToListParams({"ENa": 5}))
+#print(dictToListParams({"ENa": 5})) 
 #print(create_stimulus_vector(2.5, 500, 500, 0.01))
